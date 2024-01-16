@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9411dba3b66dfb84591c05410d66bdf4, type: 3}
+  m_Name: Gem Spawn Data - In A Row
+  m_EditorClassIdentifier: 
+  gemPrefab: {fileID: 3516628887541998784, guid: 1f1b45da1b3ac8d439bc98a4facd414a, type: 3}
+  initialScaleValue: 0.25
+  initialRotation: {x: -90, y: -0, z: -0}
+  spawnRate: 8
+  maxWaveCount: 5
+  moveSpeed: 10
+  spawnDirection: 1
+  minPosX: -5
+  maxPosX: 5
+  offsetX: 0.5
+  minPosZ: 75
+  maxPosZ: 100
+  offsetZ: 5
